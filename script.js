@@ -19,3 +19,11 @@ console.log(article2);
 const footer = document.querySelector("#footer");
 footer.textContent = "Ny Footer";
 console.log(footer);
+
+const pic = document.querySelector("#img1");
+pic.src = "https://picsum.photos/200?grayscale";
+pic.alt = "dette er en alt tekst";
+
+const pic2 = document.querySelector("#img2");
+pic2.src = "https://picsum.photos/200?grayscale";
+pic2.alt = "dette er en alt tekst";
